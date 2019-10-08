@@ -1,0 +1,16 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Sentiment Demo{% endblock %}
+
+{% block content %}
+    <h1 style="margin: 10px">Предсказание тональности отзыва</h1>
+    <form action="{{ url_for('index_page') }}" method=post style="margin: 10px">
+        <dl>
+            <dt>Введите/вставьте пример отзыва: <br>
+            <dd><textarea name=text rows=5 cols=80>{{ text }}</textarea>
+            <dd><input type=submit value="Оценить" style="height:50px; width:100px">
+            <dt style="margin-top: 10px">Предсказание: {{ prediction_message }}<br>
+        </dl>
+    </form>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+<!doctype html>
+<title>Анализ тональности текста</title>
+<body bgcolor='#D3D3D3'>
+<center>
+<h2 style='color:#0000FF'>Анализ тональности текста</h2>
+<form  action="{{ url_for('index_page') }}" method=post>
+
+    <dl>
+    <br>    <br>    <br>
+        <dt>Введите/вставьте пример отзыва на банк на Английском языке: <br>
+        <dd><textarea name=text rows=7 cols=80>{{ text }}</textarea>
+        <dd><input type=submit value="Оценить">
+    </dl>
+
+</form>
+
+<br>Анализ отзыва:<br>
+<h3>{{ prediction_message }}</h3>
+</center>

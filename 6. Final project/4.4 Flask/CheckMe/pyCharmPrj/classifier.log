@@ -1,0 +1,7 @@
+2019-03-29 16:34:21,495 - 95 - WARNING  - train data processed
+2019-03-29 16:34:41,470 - 103 - WARNING  - model created
+2019-03-29 16:48:27,784 - 90 - WARNING  - train data processed
+2019-03-29 16:48:47,751 - 98 - WARNING  - model created
+2019-03-29 17:18:59,284 - 75 - WARNING  - train data loaded
+2019-03-29 17:19:12,570 - 83 - WARNING  - model created
+2019-03-29 17:19:29,064 - 96 - ERROR    - prediction error
